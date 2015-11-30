@@ -1,4 +1,4 @@
-# Genius Storage Cleaner
+# Genius Elixir
 
 - [Description](#description)
 - [Usage](#usage)
@@ -21,6 +21,7 @@ After install run:
 <a name="todo"></a>
 ## To do
 
+- Inprove documentation
 - Translate
 - Save backups in private storage
 - History for backups in database

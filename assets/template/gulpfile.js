@@ -11,7 +11,7 @@ elixir(function(mix){
     mix.sass([
 
         // vendor (you can add more vendor css/scss)
-        './bower_components/bootswatch/paper/bootstrap.min.css',
+        './bower_components/bootstrap/dist/css/bootstrap.min.css',
 
         // custom (you can add more vendor css/scss)
         'app.scss',
