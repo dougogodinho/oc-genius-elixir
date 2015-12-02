@@ -55,7 +55,7 @@ class ElixirInit extends Command
         $this->info('Installing npm... this can take several minutes!');
 
         // instalar NPM
-        system("cd $path_destination && npm install");
+        system("cd '$path_destination' && npm install");
 
         $this->info('... node components is ok!');
 
@@ -63,7 +63,7 @@ class ElixirInit extends Command
         $this->info('Installing bower... this will no longer take as!');
 
         // instalar NPM
-        system("cd $path_destination && bower install");
+        system("cd '$path_destination' && bower install");
 
         $this->info('... bower components is ok!');
 
